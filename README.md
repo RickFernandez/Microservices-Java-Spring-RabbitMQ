@@ -9,6 +9,8 @@
 ## Fluxo da aplicação:
 O cliente fará uma requisição a API para cadastrar um novo usuário. Nesta requisição o microserviço User é chamado e publica uma mensagem em um canal de mensagem/ broker. Enquanto isso, o microserviço Email estará conectado e esperando a chegada de uma mensagem no broker para consumí-la. Ao consumir as mensagens, o microserviço Email salvará o dado (email) do usuário e enviará um email de boas-vindas ao mesmo.
 
+![Full Flow](https://github.com/RickFernandez/Microservices-Java-e-Spring-Boot-Cadastro-de-usuarios-/assets/89798238/7528ea42-9a2a-4c67-805a-9602d1e3e56b)
+
 ## Técnologias utilizadas:
 | Técnologia | Para que foi usada     | Link                |
 | :-------- | :------- | :------------------------- |
